@@ -170,7 +170,7 @@ main {
 .line {
   display: block;
   background-color: #000;
-  height: 2.8px;
+  height: 2.9px;
 }
 .line::before {
   transform: translateY(-6px);
@@ -220,6 +220,7 @@ main {
   }
   .header-second.active {
     transform: translateX(0);
+    position: absolute;
   }
   .header__navigation .title-nav {
     flex-direction: column;
