@@ -5,7 +5,6 @@ const headerSecond = document.querySelector('.header-second');
 
 
 
-
 productCard.forEach((element) => {
     const btn = element.querySelector('.content__button');
     element.addEventListener('mouseover', () => {
@@ -25,13 +24,3 @@ headerBtn.addEventListener('click', () => {
 
 
 
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const burger = document.getElementById('burger');
-//     const mobileMenu = document.getElementById('mobileMenu');
-    
-//     burger.addEventListener('click', function() {
-//         this.classList.toggle('active');
-//         mobileMenu.classList.toggle('open');
-//     });
-// });
